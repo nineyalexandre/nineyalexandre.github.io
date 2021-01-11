@@ -1,0 +1,40 @@
+body{
+	display:flex;
+	flex-direction:column-reverse;
+	justify-content:center;
+	align-items:center;
+	/*background-image: url('../images/background-2621_640.jpg');*/
+	background-image: url('../images/food-993224_640.jpg');
+	background-size: cover;
+}
+
+.photoscol{
+	width:30em;
+	display:flex;
+	flex-direction:row-reverse;
+	justify-content:space-around;
+	align-items:center;
+	border-style: solid;
+	border-color: green;
+	margin-top:0.5em;
+	
+}
+
+#content{
+	width:30em;
+	display:flex;
+	flex-direction:row;
+	justify-content: center;
+	align-items:flex-start;
+	margin:0.5em;
+	background-color:white;
+	transform: rotate(7deg);
+	z-index: 100;
+}
+.photo{
+	width: 8.5em;
+	height: 5em;
+}
+input[type="text"],input[type="tel"]{
+	margin: 0.3em;
+}
