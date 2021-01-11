@@ -1,10 +1,10 @@
-.container{
-  border-style: groove;
-  text-align: left;
-  padding: 20px;
-  margin-left: 25%;
-  margin-right: 25%;
-
+.container {
+	border-style: groove;
+	text-align: left;
+	font-family: Arial;
+	padding: 20px;
+	margin-left: 25%;
+	margin-right: 25%;
 }
 
 /* Barre de navigation*/
@@ -50,18 +50,16 @@ footer ul {
 	flex-flow: row wrap;
 	justify-content: flex-start;
 	flex-direction: row;
+	text-align: center;
 }
 
 footer li {
 	margin: auto;
-	margin-left: 0;
 	color: lightgrey;
 	text-decoration: none;
+
 }
 
-footer img {
-	height: 70px;
-}
 
 .linkfooter {
 	color: lightgrey;
