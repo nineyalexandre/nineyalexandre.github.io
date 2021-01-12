@@ -62,7 +62,6 @@
 /*Header*/
 .header {
 	text-decoration: none;
-	font-family: Arial;
 	color: lightgray;
 	padding: 20px;
 	margin-right: 25%;
@@ -73,8 +72,7 @@
 .header #nom a {
 	padding: 8px;
 	text-decoration: none;
-	
-	font-size: 24px;
+	font-size: 32px;
 	margin: auto;
 	color: #818181;
 }
@@ -86,13 +84,19 @@
 .container {
 	border-style: groove;
 	text-align: left;
-	font-family: Arial;
 	color: lightgray;
-	padding: 50px;
+	padding: 30px;
 	margin-top: 100px;
 	margin-left: 25%;
 	margin-right: 25%;
-	background-color:black
+	background-color: black;
+}
+
+.container h1 {
+	text-align: center;
+}
+.container ol li {
+	margin: 0 0 20px 0;
 }
 
 html {
