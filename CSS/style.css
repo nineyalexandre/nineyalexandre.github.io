@@ -142,11 +142,9 @@ html {
 	.contact span {
 		font-size:40px;
 	}
-	.contact #logos {
-		padding: 40px;
-		
+	.contact p {
+		font-size: 24px;
 	}
-
 	.contact #logos a {
 		margin: 40px;
 	}
