@@ -6,29 +6,36 @@
     <link rel="stylesheet" type="text/css" href="CSS/style.css">
     <script src="JS/Menu.js"></script>
 </head>
+<div class="header">
+    <div id="menu">
+        <img src="images/icons-menu.png" onclick="openNav()">
+    </div>
+    <div id="nom">
+        <a href="../index.html">Alexandre Niney</a>
+    </div>
+</div>
+<!-- The overlay -->
+<div id="myNav" class="overlay">
 
-    <!-- The overlay -->
-    <div id="myNav" class="overlay">
+    <!-- Button to close the overlay navigation -->
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 
-        <!-- Button to close the overlay navigation -->
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-
-        <!-- Overlay content -->
-        <div class="overlay-content">
-            <a href="#">Accueil</a>
-            <a href="#">Services</a>
-            <a href="HTML/telechargement.html">Téléchargements</a>
-            <a href="#">Contact</a>
-        </div>
-
+    <!-- Overlay content -->
+    <div class="overlay-content">
+        <a href="#">Accueil</a>
+        <a href="#">Portfolio</a>
+        <a href="HTML/telechargement.html">Téléchargements</a>
+        <a href="#">Contact</a>
     </div>
 
-    <!-- Use any element to open/show the overlay navigation menu -->
-    
-    <body>
-        <div class="buttonmenu"><img src="images/icons-menu.png" onclick="openNav()"></div>
+</div>
 
-    </body>
+<!-- Use any element to open/show the overlay navigation menu -->
+
+<body>
+
+
+</body>
 
 
 
