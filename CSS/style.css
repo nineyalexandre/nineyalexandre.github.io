@@ -66,11 +66,9 @@ html {
 /*Header*/
 .header {
 	text-decoration: none;
-	color: lightgray;
 	padding: 20px;
 	margin-right: 25%;
 	display: flex;
-	align-items: center;
 	justify-content: center;
 }
 	.header #nom a {
@@ -78,7 +76,7 @@ html {
 		text-decoration: none;
 		font-size: 32px;
 		margin: auto;
-		color: #818181;
+		color: white;
 	}
 	.header #menu img {
 		align-items: flex-start;
