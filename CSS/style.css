@@ -58,37 +58,6 @@
 		right: 35px;
 	}
 }
-/* Barre de navigation*/
-.banner ul {
-	list-style-type: none;
-	background-color: #203864;
-	width: 100%;
-	font-family: Arial;
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: flex-start;
-	flex-direction: row;
-}
-
-.banner li {
-	margin: auto;
-	margin-left: 0;
-	font-size: 30px;
-	width: 250px;
-	text-align: center;
-}
-
-.banner li :hover {
-	background-color: cornflowerblue;
-}
-
-.link {
-	color: lightgrey;
-	text-decoration: none;
-	padding: 30px;
-	display: block;
-}
-
 /* Pied de page*/
 footer ul {
 	list-style-type: none;
@@ -122,7 +91,20 @@ footer li {
 	border-style: groove;
 	text-align: left;
 	font-family: Arial;
+	color: lightgray;
 	padding: 20px;
 	margin-left: 25%;
 	margin-right: 25%;
+}
+
+html {
+	color: black;
+	background-color: white;
+	background-image: url(../images/background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+body img {
+	width: 3%;
 }
