@@ -93,9 +93,12 @@ html {
 		margin: 0 0 20px 0;
 		font-size: 20px;
 	}
-		.download ol li a {
-			text-decoration: none;
-			color: greenyellow;
+	#logos_OS {
+		text-align:center;
+	}
+		#logos_OS img {
+			width: 8%;
+			margin-right: 60px;
 		}
 
 /*Page portfolio*/
