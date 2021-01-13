@@ -1,10 +1,11 @@
 /* Background */
 html {
 	color: black;
-	background-color: white;
+	background-color: black;
 	background-image: url(../images/background.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -51,17 +52,7 @@ html {
 		font-size: 60px;
 	}
 
-	@media screen and (max-height: 450px) {
-		.overlay a {
-			font-size: 20px
-		}
 
-		.overlay .closebtn {
-			font-size: 40px;
-			top: 15px;
-			right: 35px;
-		}
-	}
 
 /*Header*/
 .header {
@@ -117,20 +108,20 @@ html {
 	margin-left: 25%;
 	margin-right: 25%;
 	background-color: black;
-	font-size: 20px;
+	font-size: 16px;
 }
 
 	.portfolio img {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
+		width: 100%;
 	}
 
 
 /*Page contact*/
 .contact {
 	border-style: groove;
-	text-align: left;
 	color: lightgray;
 	padding: 30px;
 	margin-top: 100px;
@@ -177,4 +168,93 @@ html {
 	.fa-skype {
 		background: #00aff0;
 		color: white;
+	}
+
+
+/*Page profil*/
+.profil {
+	border-style: groove;
+	color: lightgray;
+	padding: 30px;
+	margin-top: 100px;
+	margin-left: 25%;
+	margin-right: 25%;
+	background-color: black;
+	text-align: center;
+}
+
+	.profil span {
+		font-size: 40px;
+	}
+	.profil #titre {
+		font-size: 24px;
+	}
+	.profil img{
+		padding: 20px;
+		width: 25%;
+	}
+
+	.desc_profil {
+		text-align: left;
+	}
+		.desc_profil u {
+			margin-bottom:10px;
+		}
+
+
+	@media all and (max-width: 550px) {
+		.overlay a {
+			font-size: 20px
+		}
+
+		.overlay .closebtn {
+			font-size: 40px;
+			top: 15px;
+			right: 35px;
+		}
+		/*Header*/
+		.header {
+			text-decoration: none;
+			padding: 0px;
+			justify-content: flex-start;
+			flex-direction: column;
+		}
+
+			.header #nom a {
+				padding: 8px;
+				text-decoration: none;
+				font-size: 16px;
+				color: white;
+				display: block;
+				align-content: center;
+			}
+
+			.header #menu img {
+				width: 8%;
+			}
+
+		/*Page profil*/
+		.profil {
+			border-style: groove;
+			color: lightgray;
+			padding: 30px;
+			margin-top: 50px;
+			margin-left: 10%;
+			margin-right: 10%;
+			background-color: black;
+			text-align: center;
+		}
+	}
+
+
+	@media screen and (max-height: 550px) {
+		.overlay a {
+			font-size: 20px
+		}
+
+		.overlay .closebtn {
+			font-size: 40px;
+			top: 15px;
+			right: 35px;
+		}
 	}
