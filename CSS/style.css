@@ -74,6 +74,25 @@ html {
 		width: 8%;
 	}
 
+/*Page index*/
+.news {
+	opacity: 80%;
+	border-style: groove;
+	padding: 30px;
+	margin-top: 100px;
+	margin-left: 25%;
+	margin-right: 25%;
+	background-color: black;
+	font-size: 16px;
+	text-align: left;
+	color: white;
+}
+	.news ul li {
+		margin: 0 0 20px 0;
+	}
+
+
+
 /*Page telechargement*/
 .download {
 	border-style: groove;
