@@ -57,26 +57,31 @@ html {
 /*Header*/
 .header {
 	text-decoration: none;
-	padding: 20px;
-	margin-right: 25%;
 	display: flex;
-	justify-content: center;
+	padding: 20px;
+	justify-content: space-between;
 }
 	.header #nom a {
 		padding: 8px;
 		text-decoration: none;
 		font-size: 32px;
-		margin: auto;
 		color: white;
+		text-align: center;
 	}
 	.header #menu img {
-		align-items: flex-start;
-		width: 8%;
+		position:absolute;
+		width: 3%;
+	}
+	.header #langage a, span {
+		padding: 8px;
+		text-decoration: none;
+		font-size: 16px;
+		color: white;
 	}
 
 /*Page index*/
 .news {
-	opacity: 80%;
+	opacity: 0.8;
 	border-style: groove;
 	padding: 30px;
 	margin-top: 100px;
