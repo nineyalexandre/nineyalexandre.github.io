@@ -229,7 +229,7 @@ html {
 	}
 
 	.portfolio #scenario {
-		color:green;
+		color: cornflowerblue;
 	}
 /*Tableau avancee du projet*/
 #customers {
@@ -320,7 +320,7 @@ div.desc {
 }
 
 
-	@media all and (max-width: 550px) {
+	@media all and (max-width: 1000px) {
 		.overlay a {
 			font-size: 20px
 		}
@@ -352,16 +352,41 @@ div.desc {
 			}
 
 		/*Page profil*/
-		.profil {
+		.profil, .portfolio, .download, .contact{
 			border-style: groove;
 			color: lightgray;
 			padding: 30px;
 			margin-top: 50px;
-			margin-left: 10%;
-			margin-right: 10%;
+			margin-left: 0%;
+			margin-right: 0%;
 			background-color: black;
 			text-align: center;
 		}
+
+		/*Tableau avancee du projet*/
+		#customers {
+			font-family: Arial, Helvetica, sans-serif;
+			color: cornflowerblue;
+			border-collapse: collapse;
+			width: 100%;
+		}
+
+			#customers td, #customers th {
+				border: 1px solid #ddd;
+				padding: 8px;
+			}
+
+			#customers tr:hover {
+				background-color: #ddd;
+			}
+
+			#customers th {
+				padding-top: 12px;
+				padding-bottom: 12px;
+				text-align: center;
+				background-color: cornflowerblue;
+				color: white;
+			}
 	}
 
 
