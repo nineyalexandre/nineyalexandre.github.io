@@ -125,6 +125,12 @@ html {
 			margin-right: 60px;
 		}
 
+.download a {
+	text-decoration: none;
+	color: greenyellow;
+	text-align: center;
+}
+
 /*Page contact*/
 .contact {
 	border-style: groove;
