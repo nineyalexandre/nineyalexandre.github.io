@@ -96,6 +96,16 @@ html {
 		margin: 0 0 20px 0;
 	}
 
+	.news a{
+		padding: 8px;
+		text-decoration: none;
+		font-size: 16px;
+		color: white;
+	}
+	.news a:hover {
+		color: greenyellow;
+	}
+
 
 
 /*Page telechargement*/
